@@ -28,7 +28,7 @@ class leetmodel:
 
   def get_headers(self, referer = None):
     if referer == None:
-      referer = self.api.base
+      referer = self.api["base"]
 
 
     hd = {'User-Agent': 'Mozilla/5.0', 
